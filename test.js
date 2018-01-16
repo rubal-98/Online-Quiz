@@ -1,51 +1,48 @@
 (
     function() {
         const myQuestions = [{
-                question: "Who are Breakinterview.com?",
+                question: "What does HTML stand for?",
                 answers: {
-                    1: "Just an interview website",
-                    2: "Practice portal",
-                    3: "Or a Tutorial portal",
-                    4: "India's fastest growing portal for all of the above"
+                    1: "Hyper Text Markup Language",
+                    2: "Home Tool Markup Language",
+                    3: "Hyperlinks and Text Markup Language", 
                 },
-                correctAnswer: "4"
+                correctAnswer: "3"
             },
             {
-                question: "What all can you learn here?",
+                question: "Who is making the Web standards?",
                 answers: {
-                    1: "Web Development",
-                    2: "Programming",
-                    3: "Database",
-                    4: "All of the above"
+                    1: "Google",
+                    2: "The World Wide Web Consortium",
+                    3: "Mozilla",
+                    4: "Microsoft"
                 },
-                correctAnswer: "4"
+                correctAnswer: "2"
             },
             {
-                question: "Does Breakinterview has its own blog?",
+                question: "Which character is used to indicate an end tag?",
                 answers: {
-                    1: "Yes!!",
-                    2: "No..",
+                    1: "^",
+                    2: "/",
+                },
+                correctAnswer: "2"
+            },
+            {
+                question: "HTML comments start with <!-- and end with -->",
+                answers: {
+                    1: "Yes",
+                    2: "No",
                 },
                 correctAnswer: "1"
             },
             {
-                question: "How does BreakInterview help students?",
-                answers: {
-                    1: "By giving Unlimited Access",
-                    2: "Expert Teachers",
-                    3: "Learn Anywhere",
-                    4: "All of the above"
-                },
-                correctAnswer: "4"
-            },
-            {
-                question: "Will I be hired as an intern at Breakinterview?",
+                question: "Inline elements are normally displayed without starting a new line.",
                 answers: {
                     1: "Yes",
                     2: "No",
                     3: "Depends"
                 },
-                correctAnswer: "3"
+                correctAnswer: "1"
             }
         ];
 
